@@ -7,232 +7,232 @@
   "redundant_copies": 60,
   "identical_numeric_packet_groups": [
     [
-      "E006/EA_HW-06-01-2017-16-13-00/EA_HW50.tst",
-      "E006/EA_HW-06-01-2017-16-13-00/EA_HW66.tst"
+      "E006/EA_HW50.tst",
+      "E006/EA_HW66.tst"
     ],
     [
-      "E007/EA_HW-09-01-2017-11-37-16/EA_HW18.tst",
-      "E007/EA_HW-09-01-2017-11-37-16/EA_HW66.tst"
+      "E007/EA_HW18.tst",
+      "E007/EA_HW66.tst"
     ],
     [
-      "E013/EA_HW-09-01-2017-17-26-53/EA_HW50.tst",
-      "E013/EA_HW-09-01-2017-17-26-53/EA_HW66.tst"
+      "E013/EA_HW50.tst",
+      "E013/EA_HW66.tst"
     ],
     [
-      "E061/EA_HW-13-03-2017-11-28-19/EA_HW49.tst",
-      "E061/EA_HW-13-03-2017-11-28-19/EA_HW65.tst"
+      "E061/EA_HW49.tst",
+      "E061/EA_HW65.tst"
     ],
     [
-      "E061/EA_HW-13-03-2017-11-28-19/EA_HW50.tst",
-      "E061/EA_HW-13-03-2017-11-28-19/EA_HW66.tst"
+      "E061/EA_HW50.tst",
+      "E061/EA_HW66.tst"
     ],
     [
-      "E062/EA_HW-13-03-2017-13-59-51/EA_HW18.tst",
-      "E062/EA_HW-13-03-2017-13-59-51/EA_HW50.tst"
+      "E062/EA_HW18.tst",
+      "E062/EA_HW50.tst"
     ],
     [
-      "E062/EA_HW-13-03-2017-13-59-51/EA_HW34.tst",
-      "E062/EA_HW-13-03-2017-13-59-51/EA_HW66.tst"
+      "E062/EA_HW34.tst",
+      "E062/EA_HW66.tst"
     ],
     [
-      "E065/EA_HW-14-03-2017-12-54-44/EA_HW18.tst",
-      "E065/EA_HW-14-03-2017-12-54-44/EA_HW34.tst"
+      "E065/EA_HW18.tst",
+      "E065/EA_HW34.tst"
     ],
     [
-      "E069/EA_HW-16-03-2017-15-33-30/EA_HW34.tst",
-      "E069/EA_HW-16-03-2017-15-33-30/EA_HW50.tst"
+      "E069/EA_HW34.tst",
+      "E069/EA_HW50.tst"
     ],
     [
-      "E071/EA_HW-17-03-2017-13-48-32/EA_HW17.tst",
-      "E071/EA_HW-17-03-2017-13-48-32/EA_HW65.tst"
+      "E071/EA_HW17.tst",
+      "E071/EA_HW65.tst"
     ],
     [
-      "E071/EA_HW-17-03-2017-13-48-32/EA_HW41.tst",
-      "E071/EA_HW-17-03-2017-13-48-32/EA_HW57.tst"
+      "E071/EA_HW41.tst",
+      "E071/EA_HW57.tst"
     ],
     [
-      "E072/EA_HW-17-03-2017-14-27-57/EA_HW34.tst",
-      "E072/EA_HW-17-03-2017-14-27-57/EA_HW50.tst"
+      "E072/EA_HW34.tst",
+      "E072/EA_HW50.tst"
     ],
     [
-      "E073/EA_HW-17-03-2017-15-01-55/EA_HW34.tst",
-      "E073/EA_HW-17-03-2017-15-01-55/EA_HW62.tst"
+      "E073/EA_HW34.tst",
+      "E073/EA_HW62.tst"
     ],
     [
-      "E076/EA_HW-20-03-2017-15-14-02/EA_HW18.tst",
-      "E076/EA_HW-20-03-2017-15-14-02/EA_HW33.tst"
+      "E076/EA_HW18.tst",
+      "E076/EA_HW33.tst"
     ],
     [
-      "E076/EA_HW-20-03-2017-15-14-02/EA_HW20.tst",
-      "E076/EA_HW-20-03-2017-15-14-02/EA_HW4.tst"
+      "E076/EA_HW20.tst",
+      "E076/EA_HW4.tst"
     ],
     [
-      "E076/EA_HW-20-03-2017-15-14-02/EA_HW50.tst",
-      "E076/EA_HW-20-03-2017-15-14-02/EA_HW66.tst"
+      "E076/EA_HW50.tst",
+      "E076/EA_HW66.tst"
     ],
     [
-      "E077/EA_HW-21-03-2017-11-19-52/EA_HW50.tst",
-      "E077/EA_HW-21-03-2017-11-19-52/EA_HW66.tst"
+      "E077/EA_HW50.tst",
+      "E077/EA_HW66.tst"
     ],
     [
-      "E078/EA_HW-21-03-2017-13-36-04/EA_HW36.tst",
-      "E078/EA_HW-21-03-2017-13-36-04/EA_HW52.tst"
+      "E078/EA_HW36.tst",
+      "E078/EA_HW52.tst"
     ],
     [
-      "E079/EA_HW-21-03-2017-14-40-10/EA_HW37.tst",
-      "E079/EA_HW-21-03-2017-14-40-10/EA_HW53.tst"
+      "E079/EA_HW37.tst",
+      "E079/EA_HW53.tst"
     ],
     [
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW17.tst",
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW65.tst"
+      "E083/EA_HW17.tst",
+      "E083/EA_HW65.tst"
     ],
     [
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW18.tst",
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW34.tst"
+      "E083/EA_HW18.tst",
+      "E083/EA_HW34.tst"
     ],
     [
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW32.tst",
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW36.tst"
+      "E083/EA_HW32.tst",
+      "E083/EA_HW36.tst"
     ],
     [
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW43.tst",
-      "E083/EA_HW-22-03-2017-15-30-28/EA_HW66.tst"
+      "E083/EA_HW43.tst",
+      "E083/EA_HW66.tst"
     ],
     [
-      "E084/EA_HW-22-03-2017-16-18-32/EA_HW18.tst",
-      "E084/EA_HW-22-03-2017-16-18-32/EA_HW66.tst"
+      "E084/EA_HW18.tst",
+      "E084/EA_HW66.tst"
     ],
     [
-      "E089/EA_HW-24-03-2017-16-02-15/EA_HW18.tst",
-      "E089/EA_HW-24-03-2017-16-02-15/EA_HW66.tst"
+      "E089/EA_HW18.tst",
+      "E089/EA_HW66.tst"
     ],
     [
-      "E090/EA_HW-28-03-2017-13-32-48/EA_HW18.tst",
-      "E090/EA_HW-28-03-2017-13-32-48/EA_HW66.tst"
+      "E090/EA_HW18.tst",
+      "E090/EA_HW66.tst"
     ],
     [
-      "E090/EA_HW-28-03-2017-13-32-48/EA_HW34.tst",
-      "E090/EA_HW-28-03-2017-13-32-48/EA_HW50.tst"
+      "E090/EA_HW34.tst",
+      "E090/EA_HW50.tst"
     ],
     [
-      "E091/EA_HW-28-03-2017-13-59-13/EA_HW34.tst",
-      "E091/EA_HW-28-03-2017-13-59-13/EA_HW50.tst",
-      "E091/EA_HW-28-03-2017-13-59-13/EA_HW66.tst"
+      "E091/EA_HW34.tst",
+      "E091/EA_HW50.tst",
+      "E091/EA_HW66.tst"
     ],
     [
-      "E093/EA_HW-28-03-2017-15-03-43/EA_HW18.tst",
-      "E093/EA_HW-28-03-2017-15-03-43/EA_HW58.tst"
+      "E093/EA_HW18.tst",
+      "E093/EA_HW58.tst"
     ],
     [
-      "E093/EA_HW-28-03-2017-15-03-43/EA_HW43.tst",
-      "E093/EA_HW-28-03-2017-15-03-43/EA_HW66.tst"
+      "E093/EA_HW43.tst",
+      "E093/EA_HW66.tst"
     ],
     [
-      "E094/EA_HW-29-03-2017-14-42-03/EA_HW18.tst",
-      "E094/EA_HW-29-03-2017-14-42-03/EA_HW34.tst",
-      "E094/EA_HW-29-03-2017-14-42-03/EA_HW49.tst"
+      "E094/EA_HW18.tst",
+      "E094/EA_HW34.tst",
+      "E094/EA_HW49.tst"
     ],
     [
-      "E094/EA_HW-29-03-2017-14-42-03/EA_HW37.tst",
-      "E094/EA_HW-29-03-2017-14-42-03/EA_HW5.tst"
+      "E094/EA_HW37.tst",
+      "E094/EA_HW5.tst"
     ],
     [
-      "E095/EA_HW-29-03-2017-15-30-21/EA_HW18.tst",
-      "E095/EA_HW-29-03-2017-15-30-21/EA_HW66.tst"
+      "E095/EA_HW18.tst",
+      "E095/EA_HW66.tst"
     ],
     [
-      "E095/EA_HW-29-03-2017-15-30-21/EA_HW34.tst",
-      "E095/EA_HW-29-03-2017-15-30-21/EA_HW50.tst"
+      "E095/EA_HW34.tst",
+      "E095/EA_HW50.tst"
     ],
     [
-      "E097/EA_HW-30-03-2017-14-38-37/EA_HW18.tst",
-      "E097/EA_HW-30-03-2017-14-38-37/EA_HW66.tst"
+      "E097/EA_HW18.tst",
+      "E097/EA_HW66.tst"
     ],
     [
-      "E103/EA_HW-06-04-2017-15-12-01/EA_HW18.tst",
-      "E103/EA_HW-06-04-2017-15-12-01/EA_HW34.tst"
+      "E103/EA_HW18.tst",
+      "E103/EA_HW34.tst"
     ],
     [
-      "E103/EA_HW-06-04-2017-15-12-01/EA_HW50.tst",
-      "E103/EA_HW-06-04-2017-15-12-01/EA_HW66.tst"
+      "E103/EA_HW50.tst",
+      "E103/EA_HW66.tst"
     ],
     [
-      "E104/EA_HW-07-04-2017-14-48-16/EA_HW36.tst",
-      "E104/EA_HW-07-04-2017-14-48-16/EA_HW66.tst"
+      "E104/EA_HW36.tst",
+      "E104/EA_HW66.tst"
     ],
     [
-      "E105/EA_HW-10-04-2017-13-30-31/EA_HW34.tst",
-      "E105/EA_HW-10-04-2017-13-30-31/EA_HW50.tst"
+      "E105/EA_HW34.tst",
+      "E105/EA_HW50.tst"
     ],
     [
-      "E106/EA_HW-10-04-2017-14-44-23/EA_HW20.tst",
-      "E106/EA_HW-10-04-2017-14-44-23/EA_HW9.tst"
+      "E106/EA_HW20.tst",
+      "E106/EA_HW9.tst"
     ],
     [
-      "E107/EA_HW-11-04-2017-13-46-20/EA_HW18.tst",
-      "E107/EA_HW-11-04-2017-13-46-20/EA_HW34.tst",
-      "E107/EA_HW-11-04-2017-13-46-20/EA_HW42.tst",
-      "E107/EA_HW-11-04-2017-13-46-20/EA_HW66.tst"
+      "E107/EA_HW18.tst",
+      "E107/EA_HW34.tst",
+      "E107/EA_HW42.tst",
+      "E107/EA_HW66.tst"
     ],
     [
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW10.tst",
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW27.tst"
+      "E110/EA_HW10.tst",
+      "E110/EA_HW27.tst"
     ],
     [
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW17.tst",
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW28.tst"
+      "E110/EA_HW17.tst",
+      "E110/EA_HW28.tst"
     ],
     [
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW18.tst",
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW21.tst"
+      "E110/EA_HW18.tst",
+      "E110/EA_HW21.tst"
     ],
     [
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW20.tst",
-      "E110/EA_HW-12-04-2017-14-30-25/EA_HW4.tst"
+      "E110/EA_HW20.tst",
+      "E110/EA_HW4.tst"
     ],
     [
-      "E113/EA_HW-14-04-2017-14-17-09/EA_HW34.tst",
-      "E113/EA_HW-14-04-2017-14-17-09/EA_HW50.tst"
+      "E113/EA_HW34.tst",
+      "E113/EA_HW50.tst"
     ],
     [
-      "E115/EA_HW-17-04-2017-14-49-11/EA_HW50.tst",
-      "E115/EA_HW-17-04-2017-14-49-11/EA_HW66.tst"
+      "E115/EA_HW50.tst",
+      "E115/EA_HW66.tst"
     ],
     [
-      "E118/EA_HW-27-04-2017-14-52-19/EA_HW36.tst",
-      "E118/EA_HW-27-04-2017-14-52-19/EA_HW52.tst"
+      "E118/EA_HW36.tst",
+      "E118/EA_HW52.tst"
     ],
     [
-      "E120/EA_HW-04-05-2017-13-45-16/EA_HW34.tst",
-      "E120/EA_HW-04-05-2017-13-45-16/EA_HW50.tst"
+      "E120/EA_HW34.tst",
+      "E120/EA_HW50.tst"
     ],
     [
-      "E120/EA_HW-04-05-2017-13-45-16/EA_HW49.tst",
-      "E120/EA_HW-04-05-2017-13-45-16/EA_HW53.tst"
+      "E120/EA_HW49.tst",
+      "E120/EA_HW53.tst"
     ],
     [
-      "E122/EA_HW-11-05-2017-14-50-49/EA_HW33.tst",
-      "E122/EA_HW-11-05-2017-14-50-49/EA_HW49.tst"
+      "E122/EA_HW33.tst",
+      "E122/EA_HW49.tst"
     ],
     [
-      "E131/EA_HW-18-07-2017-15-55-10/EA_HW37.tst",
-      "E131/EA_HW-18-07-2017-15-55-10/EA_HW53.tst"
+      "E131/EA_HW37.tst",
+      "E131/EA_HW53.tst"
     ],
     [
-      "E131/EA_HW-18-07-2017-15-55-10/EA_HW46.tst",
-      "E131/EA_HW-18-07-2017-15-55-10/EA_HW62.tst"
+      "E131/EA_HW46.tst",
+      "E131/EA_HW62.tst"
     ],
     [
-      "E132/EA_HW-21-07-2017-12-28-40/EA_HW23.tst",
-      "E132/EA_HW-21-07-2017-12-28-40/EA_HW55.tst"
+      "E132/EA_HW23.tst",
+      "E132/EA_HW55.tst"
     ],
     [
-      "E140/EA_HW-16-08-2017-15-55-02/EA_HW46.tst",
-      "E140/EA_HW-16-08-2017-15-55-02/EA_HW62.tst"
+      "E140/EA_HW46.tst",
+      "E140/EA_HW62.tst"
     ],
     [
-      "E140/EA_HW-16-08-2017-15-55-02/EA_HW47.tst",
-      "E140/EA_HW-16-08-2017-15-55-02/EA_HW63.tst"
+      "E140/EA_HW47.tst",
+      "E140/EA_HW63.tst"
     ]
   ],
   "sample_label_conflicts": [

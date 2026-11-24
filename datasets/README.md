@@ -62,10 +62,11 @@ This inventories the archive, reads every selected signature `.tst` row, and
 fully decodes all 8,040 selected signature JPEGs. Handwriting and the aborted
 image are excluded from signature analysis. It reports aggregate values and
 pseudonymous file identifiers without
-exporting demographic values or biometric samples. The committed report also
-includes size/CRC checks against the local 7-Zip listing; the optional
-`--inventory` argument accepts that locally generated inventory JSON. The 7-Zip
-test command independently checks archive integrity.
+exporting demographic values or biometric samples. The committed report includes
+size/CRC checks against a local 7-Zip `l -slt` listing of the original archive.
+The optional `--inventory` argument accepts a locally generated JSON version of
+that listing; the simple command above omits those extra checks. The 7-Zip test
+command independently checks archive integrity.
 
 The second utility compares numeric packet sections independently of their
 headers, and checks filename/sample-number and directory/writer-ID agreement.

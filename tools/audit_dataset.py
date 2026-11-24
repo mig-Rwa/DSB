@@ -31,6 +31,12 @@ def is_signature(path: Path):
                              for low, high in [(4, 18), (20, 34), (36, 50), (52, 66)]))
 
 
+def public_ref(relative_path: str):
+    """Keep a subject/sample reference without its capture-directory timestamp."""
+    parts = relative_path.replace("\\", "/").split("/")
+    return f"{parts[0]}/{parts[-1]}" if len(parts) > 1 else parts[0]
+
+
 def audit(root: Path, inventory: Path | None):
     files = sorted(p for p in root.rglob("*") if p.is_file())
     subjects = sorted(p.name for p in root.iterdir() if p.is_dir())
@@ -67,6 +73,7 @@ def audit(root: Path, inventory: Path | None):
 
     for path in files:
         rel = path.relative_to(root).as_posix()
+        ref = public_ref(rel)
         subject = rel.split("/")[0]
         if subject not in seen_subject:
             seen_subject.add(subject)
@@ -76,16 +83,16 @@ def audit(root: Path, inventory: Path | None):
         extensions[path.suffix.lower()] += 1
         sizes[path.suffix.lower()] += len(raw)
         if path.suffix.lower() in {".tst", ".jpg"} and is_signature(path):
-            hashes[(path.suffix.lower(), hashlib.sha256(raw).hexdigest())].append(rel)
+            hashes[(path.suffix.lower(), hashlib.sha256(raw).hexdigest())].append(ref)
         if expected_entries:
             entry = expected_entries.get(root.name + "/" + rel)
             if entry is None:
-                unexpected_files.append(rel)
+                unexpected_files.append(ref)
             else:
                 if len(raw) != int(entry["Size"]):
-                    size_errors.append(rel)
+                    size_errors.append(ref)
                 if f"{zlib.crc32(raw) & 0xffffffff:08X}" != entry["CRC"]:
-                    crc_errors.append(rel)
+                    crc_errors.append(ref)
 
         if path.name == "subject.txt":
             for line in raw.decode("latin-1").splitlines():
@@ -114,7 +121,7 @@ def audit(root: Path, inventory: Path | None):
                     image_sizes.append(img.size)
                     image_modes[img.mode] += 1
             except Exception as exc:
-                bad_images.append({"path": rel, "error_type": type(exc).__name__})
+                bad_images.append({"sample": ref, "error_type": type(exc).__name__})
         elif path.suffix.lower() == ".tst":
             if not is_signature(path):
                 excluded_files["non_signature_tst"] += 1
@@ -123,7 +130,7 @@ def audit(root: Path, inventory: Path | None):
             number = int(match.group(1))
             kind = "signature"
             samples_per_subject[subject] += 1
-            recording_keys[(subject, number)].append(rel)
+            recording_keys[(subject, number)].append(ref)
             columns, in_data, row_count = None, False, 0
             first_time = previous_time = None
             contact_x, contact_y = [], []
@@ -143,24 +150,24 @@ def audit(root: Path, inventory: Path | None):
                         if key in technical_keys:
                             technical[key][value] += 1
                         if key == "ID" and value != subject:
-                            identifier_mismatches.append(rel)
+                            identifier_mismatches.append(ref)
                     elif line and not line.startswith("#"):
                         comments_seen[line if line in {"<", ">", "No Comment"} else "non-default text (withheld)"] += 1
                 else:
                     if line.startswith("#"):
-                        malformed_rows.append({"path": rel, "line": line_number, "reason": "unexpected footer"})
+                        malformed_rows.append({"sample": ref, "line": line_number, "reason": "unexpected footer"})
                         continue
                     parts = line.split("\t")
                     if columns is None or len(parts) != len(columns):
-                        malformed_rows.append({"path": rel, "line": line_number, "reason": "wrong column count"})
+                        malformed_rows.append({"sample": ref, "line": line_number, "reason": "wrong column count"})
                         continue
                     try:
                         values = [float(value) for value in parts]
                     except ValueError:
-                        malformed_rows.append({"path": rel, "line": line_number, "reason": "nonnumeric packet"})
+                        malformed_rows.append({"sample": ref, "line": line_number, "reason": "nonnumeric packet"})
                         continue
                     if not all(math.isfinite(value) for value in values):
-                        nonfinite_rows.append({"path": rel, "line": line_number})
+                        nonfinite_rows.append({"sample": ref, "line": line_number})
                         continue
                     row = dict(zip(columns, values))
                     for key, value in row.items():
@@ -175,7 +182,7 @@ def audit(root: Path, inventory: Path | None):
                         dt = time - previous_time
                         dt_by_type[kind][dt] += 1
                         if dt <= 0:
-                            time_errors.append({"path": rel, "line": line_number, "delta": dt})
+                            time_errors.append({"sample": ref, "line": line_number, "delta": dt})
                     previous_time = time
                     down = bool(int(row["Bu"]) & 1)
                     positive = row["NP"] > 0
@@ -190,16 +197,16 @@ def audit(root: Path, inventory: Path | None):
             packet_counts[kind].append(row_count)
             packet_total[kind] += row_count
             if row_count == 0:
-                empty_recordings.append(rel)
+                empty_recordings.append(ref)
             else:
                 time_spans[kind].append(previous_time - first_time)
             if kind == "signature":
                 signature_contact_counts.append(len(contact_x))
             if len(contact_x) < 2 or max(max(contact_x)-min(contact_x), max(contact_y)-min(contact_y)) == 0:
-                degenerate_contact.append(rel)
+                degenerate_contact.append(ref)
 
-    tst_stems = {p.relative_to(root).with_suffix("").as_posix() for p in files if p.suffix.lower() == ".tst" and is_signature(p)}
-    jpg_stems = {p.relative_to(root).with_suffix("").as_posix() for p in files if p.suffix.lower() == ".jpg" and is_signature(p)}
+    tst_stems = {public_ref(p.relative_to(root).with_suffix("").as_posix()) for p in files if p.suffix.lower() == ".tst" and is_signature(p)}
+    jpg_stems = {public_ref(p.relative_to(root).with_suffix("").as_posix()) for p in files if p.suffix.lower() == ".jpg" and is_signature(p)}
     duplicate_recordings = {f"{subject}/sample-{number}": paths
                             for (subject, number), paths in recording_keys.items() if len(paths) > 1}
     return {
@@ -210,7 +217,8 @@ def audit(root: Path, inventory: Path | None):
         "bytes_by_extension": dict(sizes), "total_bytes": sum(sizes.values()),
         "extraction_integrity": {"archive_entries_checked": len(expected_entries), "crc_mismatches": crc_errors,
                                  "size_mismatches": size_errors, "unexpected_files": unexpected_files,
-                                 "missing_files": sorted(set(expected_entries) - {root.name + '/' + p.relative_to(root).as_posix() for p in files})},
+                                 "missing_files": sorted(public_ref(path.split('/', 1)[1]) for path in
+                                                         set(expected_entries) - {root.name + '/' + p.relative_to(root).as_posix() for p in files})},
         "signature_recordings": sum(samples_per_subject.values()),
         "unique_subject_sample_pairs": len(recording_keys),
         "excluded_from_signature_analysis": dict(excluded_files),

@@ -28,7 +28,7 @@ def audit_links(root):
         digest = hashlib.sha256(b"\n".join(data.splitlines()).strip()).hexdigest()
         relative = path.relative_to(root)
         subject = relative.parts[0]
-        packet_hashes[digest].append(relative.as_posix())
+        packet_hashes[digest].append(f"{subject}/{path.name}")
         for line in header.decode("latin-1").splitlines():
             if line.startswith("#Test Conducted:"):
                 match = re.search(r"EA_HW(\d+)\s*$", line)

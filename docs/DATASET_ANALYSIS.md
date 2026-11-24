@@ -84,7 +84,7 @@ The archive is a single, unencrypted, solid LZMA2 7-Zip archive. It contains
 
 | Extension | Files | Meaning |
 | --- | ---: | --- |
-| `.tst` | 8,847 | MEDDRAW text recordings: metadata followed by time-ordered tablet packets |
+| `.tst` | 8,847 | MEDDRAW text recordings: metadata followed by recorded tablet packets |
 | `.jpg` | 8,848 | Raster renderings of handwriting/signatures, including one aborted image |
 | `.txt` | 134 | One `subject.txt` demographic record per subject |
 | `.dat` | 270 | `analysis.dat` and `playback.dat` capture-software files; every one contains `False` |
