@@ -1,0 +1,10 @@
+.local-analysis/
+datasets/extracted/
+datasets/source/*
+!datasets/source/*.pdf
+!datasets/source/*.docx
+*.7z
+*.tst
+subject.txt
+__pycache__/
+*.pyc

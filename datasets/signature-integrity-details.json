@@ -1,0 +1,1443 @@
+{
+  "scope": "Signatures only, pooled by subject folder; no emotion classification",
+  "comparison": "SHA-256 of packet text after newline normalization and stripping surrounding whitespace",
+  "distinct_packet_streams": 7980,
+  "duplicate_groups": 56,
+  "files_in_duplicate_groups": 116,
+  "redundant_copies": 60,
+  "identical_numeric_packet_groups": [
+    [
+      "E006/EA_HW-06-01-2017-16-13-00/EA_HW50.tst",
+      "E006/EA_HW-06-01-2017-16-13-00/EA_HW66.tst"
+    ],
+    [
+      "E007/EA_HW-09-01-2017-11-37-16/EA_HW18.tst",
+      "E007/EA_HW-09-01-2017-11-37-16/EA_HW66.tst"
+    ],
+    [
+      "E013/EA_HW-09-01-2017-17-26-53/EA_HW50.tst",
+      "E013/EA_HW-09-01-2017-17-26-53/EA_HW66.tst"
+    ],
+    [
+      "E061/EA_HW-13-03-2017-11-28-19/EA_HW49.tst",
+      "E061/EA_HW-13-03-2017-11-28-19/EA_HW65.tst"
+    ],
+    [
+      "E061/EA_HW-13-03-2017-11-28-19/EA_HW50.tst",
+      "E061/EA_HW-13-03-2017-11-28-19/EA_HW66.tst"
+    ],
+    [
+      "E062/EA_HW-13-03-2017-13-59-51/EA_HW18.tst",
+      "E062/EA_HW-13-03-2017-13-59-51/EA_HW50.tst"
+    ],
+    [
+      "E062/EA_HW-13-03-2017-13-59-51/EA_HW34.tst",
+      "E062/EA_HW-13-03-2017-13-59-51/EA_HW66.tst"
+    ],
+    [
+      "E065/EA_HW-14-03-2017-12-54-44/EA_HW18.tst",
+      "E065/EA_HW-14-03-2017-12-54-44/EA_HW34.tst"
+    ],
+    [
+      "E069/EA_HW-16-03-2017-15-33-30/EA_HW34.tst",
+      "E069/EA_HW-16-03-2017-15-33-30/EA_HW50.tst"
+    ],
+    [
+      "E071/EA_HW-17-03-2017-13-48-32/EA_HW17.tst",
+      "E071/EA_HW-17-03-2017-13-48-32/EA_HW65.tst"
+    ],
+    [
+      "E071/EA_HW-17-03-2017-13-48-32/EA_HW41.tst",
+      "E071/EA_HW-17-03-2017-13-48-32/EA_HW57.tst"
+    ],
+    [
+      "E072/EA_HW-17-03-2017-14-27-57/EA_HW34.tst",
+      "E072/EA_HW-17-03-2017-14-27-57/EA_HW50.tst"
+    ],
+    [
+      "E073/EA_HW-17-03-2017-15-01-55/EA_HW34.tst",
+      "E073/EA_HW-17-03-2017-15-01-55/EA_HW62.tst"
+    ],
+    [
+      "E076/EA_HW-20-03-2017-15-14-02/EA_HW18.tst",
+      "E076/EA_HW-20-03-2017-15-14-02/EA_HW33.tst"
+    ],
+    [
+      "E076/EA_HW-20-03-2017-15-14-02/EA_HW20.tst",
+      "E076/EA_HW-20-03-2017-15-14-02/EA_HW4.tst"
+    ],
+    [
+      "E076/EA_HW-20-03-2017-15-14-02/EA_HW50.tst",
+      "E076/EA_HW-20-03-2017-15-14-02/EA_HW66.tst"
+    ],
+    [
+      "E077/EA_HW-21-03-2017-11-19-52/EA_HW50.tst",
+      "E077/EA_HW-21-03-2017-11-19-52/EA_HW66.tst"
+    ],
+    [
+      "E078/EA_HW-21-03-2017-13-36-04/EA_HW36.tst",
+      "E078/EA_HW-21-03-2017-13-36-04/EA_HW52.tst"
+    ],
+    [
+      "E079/EA_HW-21-03-2017-14-40-10/EA_HW37.tst",
+      "E079/EA_HW-21-03-2017-14-40-10/EA_HW53.tst"
+    ],
+    [
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW17.tst",
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW65.tst"
+    ],
+    [
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW18.tst",
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW34.tst"
+    ],
+    [
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW32.tst",
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW36.tst"
+    ],
+    [
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW43.tst",
+      "E083/EA_HW-22-03-2017-15-30-28/EA_HW66.tst"
+    ],
+    [
+      "E084/EA_HW-22-03-2017-16-18-32/EA_HW18.tst",
+      "E084/EA_HW-22-03-2017-16-18-32/EA_HW66.tst"
+    ],
+    [
+      "E089/EA_HW-24-03-2017-16-02-15/EA_HW18.tst",
+      "E089/EA_HW-24-03-2017-16-02-15/EA_HW66.tst"
+    ],
+    [
+      "E090/EA_HW-28-03-2017-13-32-48/EA_HW18.tst",
+      "E090/EA_HW-28-03-2017-13-32-48/EA_HW66.tst"
+    ],
+    [
+      "E090/EA_HW-28-03-2017-13-32-48/EA_HW34.tst",
+      "E090/EA_HW-28-03-2017-13-32-48/EA_HW50.tst"
+    ],
+    [
+      "E091/EA_HW-28-03-2017-13-59-13/EA_HW34.tst",
+      "E091/EA_HW-28-03-2017-13-59-13/EA_HW50.tst",
+      "E091/EA_HW-28-03-2017-13-59-13/EA_HW66.tst"
+    ],
+    [
+      "E093/EA_HW-28-03-2017-15-03-43/EA_HW18.tst",
+      "E093/EA_HW-28-03-2017-15-03-43/EA_HW58.tst"
+    ],
+    [
+      "E093/EA_HW-28-03-2017-15-03-43/EA_HW43.tst",
+      "E093/EA_HW-28-03-2017-15-03-43/EA_HW66.tst"
+    ],
+    [
+      "E094/EA_HW-29-03-2017-14-42-03/EA_HW18.tst",
+      "E094/EA_HW-29-03-2017-14-42-03/EA_HW34.tst",
+      "E094/EA_HW-29-03-2017-14-42-03/EA_HW49.tst"
+    ],
+    [
+      "E094/EA_HW-29-03-2017-14-42-03/EA_HW37.tst",
+      "E094/EA_HW-29-03-2017-14-42-03/EA_HW5.tst"
+    ],
+    [
+      "E095/EA_HW-29-03-2017-15-30-21/EA_HW18.tst",
+      "E095/EA_HW-29-03-2017-15-30-21/EA_HW66.tst"
+    ],
+    [
+      "E095/EA_HW-29-03-2017-15-30-21/EA_HW34.tst",
+      "E095/EA_HW-29-03-2017-15-30-21/EA_HW50.tst"
+    ],
+    [
+      "E097/EA_HW-30-03-2017-14-38-37/EA_HW18.tst",
+      "E097/EA_HW-30-03-2017-14-38-37/EA_HW66.tst"
+    ],
+    [
+      "E103/EA_HW-06-04-2017-15-12-01/EA_HW18.tst",
+      "E103/EA_HW-06-04-2017-15-12-01/EA_HW34.tst"
+    ],
+    [
+      "E103/EA_HW-06-04-2017-15-12-01/EA_HW50.tst",
+      "E103/EA_HW-06-04-2017-15-12-01/EA_HW66.tst"
+    ],
+    [
+      "E104/EA_HW-07-04-2017-14-48-16/EA_HW36.tst",
+      "E104/EA_HW-07-04-2017-14-48-16/EA_HW66.tst"
+    ],
+    [
+      "E105/EA_HW-10-04-2017-13-30-31/EA_HW34.tst",
+      "E105/EA_HW-10-04-2017-13-30-31/EA_HW50.tst"
+    ],
+    [
+      "E106/EA_HW-10-04-2017-14-44-23/EA_HW20.tst",
+      "E106/EA_HW-10-04-2017-14-44-23/EA_HW9.tst"
+    ],
+    [
+      "E107/EA_HW-11-04-2017-13-46-20/EA_HW18.tst",
+      "E107/EA_HW-11-04-2017-13-46-20/EA_HW34.tst",
+      "E107/EA_HW-11-04-2017-13-46-20/EA_HW42.tst",
+      "E107/EA_HW-11-04-2017-13-46-20/EA_HW66.tst"
+    ],
+    [
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW10.tst",
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW27.tst"
+    ],
+    [
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW17.tst",
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW28.tst"
+    ],
+    [
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW18.tst",
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW21.tst"
+    ],
+    [
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW20.tst",
+      "E110/EA_HW-12-04-2017-14-30-25/EA_HW4.tst"
+    ],
+    [
+      "E113/EA_HW-14-04-2017-14-17-09/EA_HW34.tst",
+      "E113/EA_HW-14-04-2017-14-17-09/EA_HW50.tst"
+    ],
+    [
+      "E115/EA_HW-17-04-2017-14-49-11/EA_HW50.tst",
+      "E115/EA_HW-17-04-2017-14-49-11/EA_HW66.tst"
+    ],
+    [
+      "E118/EA_HW-27-04-2017-14-52-19/EA_HW36.tst",
+      "E118/EA_HW-27-04-2017-14-52-19/EA_HW52.tst"
+    ],
+    [
+      "E120/EA_HW-04-05-2017-13-45-16/EA_HW34.tst",
+      "E120/EA_HW-04-05-2017-13-45-16/EA_HW50.tst"
+    ],
+    [
+      "E120/EA_HW-04-05-2017-13-45-16/EA_HW49.tst",
+      "E120/EA_HW-04-05-2017-13-45-16/EA_HW53.tst"
+    ],
+    [
+      "E122/EA_HW-11-05-2017-14-50-49/EA_HW33.tst",
+      "E122/EA_HW-11-05-2017-14-50-49/EA_HW49.tst"
+    ],
+    [
+      "E131/EA_HW-18-07-2017-15-55-10/EA_HW37.tst",
+      "E131/EA_HW-18-07-2017-15-55-10/EA_HW53.tst"
+    ],
+    [
+      "E131/EA_HW-18-07-2017-15-55-10/EA_HW46.tst",
+      "E131/EA_HW-18-07-2017-15-55-10/EA_HW62.tst"
+    ],
+    [
+      "E132/EA_HW-21-07-2017-12-28-40/EA_HW23.tst",
+      "E132/EA_HW-21-07-2017-12-28-40/EA_HW55.tst"
+    ],
+    [
+      "E140/EA_HW-16-08-2017-15-55-02/EA_HW46.tst",
+      "E140/EA_HW-16-08-2017-15-55-02/EA_HW62.tst"
+    ],
+    [
+      "E140/EA_HW-16-08-2017-15-55-02/EA_HW47.tst",
+      "E140/EA_HW-16-08-2017-15-55-02/EA_HW63.tst"
+    ]
+  ],
+  "sample_label_conflicts": [
+    {
+      "subject": "E006",
+      "file_sample": 50,
+      "header_sample": 66
+    },
+    {
+      "subject": "E007",
+      "file_sample": 4,
+      "header_sample": 5
+    },
+    {
+      "subject": "E007",
+      "file_sample": 5,
+      "header_sample": 6
+    },
+    {
+      "subject": "E007",
+      "file_sample": 6,
+      "header_sample": 7
+    },
+    {
+      "subject": "E007",
+      "file_sample": 7,
+      "header_sample": 8
+    },
+    {
+      "subject": "E007",
+      "file_sample": 8,
+      "header_sample": 9
+    },
+    {
+      "subject": "E007",
+      "file_sample": 9,
+      "header_sample": 10
+    },
+    {
+      "subject": "E007",
+      "file_sample": 10,
+      "header_sample": 11
+    },
+    {
+      "subject": "E007",
+      "file_sample": 11,
+      "header_sample": 12
+    },
+    {
+      "subject": "E007",
+      "file_sample": 12,
+      "header_sample": 13
+    },
+    {
+      "subject": "E007",
+      "file_sample": 13,
+      "header_sample": 14
+    },
+    {
+      "subject": "E007",
+      "file_sample": 14,
+      "header_sample": 15
+    },
+    {
+      "subject": "E007",
+      "file_sample": 15,
+      "header_sample": 16
+    },
+    {
+      "subject": "E007",
+      "file_sample": 16,
+      "header_sample": 17
+    },
+    {
+      "subject": "E007",
+      "file_sample": 17,
+      "header_sample": 18
+    },
+    {
+      "subject": "E007",
+      "file_sample": 18,
+      "header_sample": 19
+    },
+    {
+      "subject": "E007",
+      "file_sample": 20,
+      "header_sample": 21
+    },
+    {
+      "subject": "E007",
+      "file_sample": 21,
+      "header_sample": 22
+    },
+    {
+      "subject": "E007",
+      "file_sample": 22,
+      "header_sample": 23
+    },
+    {
+      "subject": "E007",
+      "file_sample": 23,
+      "header_sample": 24
+    },
+    {
+      "subject": "E007",
+      "file_sample": 24,
+      "header_sample": 25
+    },
+    {
+      "subject": "E007",
+      "file_sample": 25,
+      "header_sample": 26
+    },
+    {
+      "subject": "E007",
+      "file_sample": 26,
+      "header_sample": 27
+    },
+    {
+      "subject": "E007",
+      "file_sample": 27,
+      "header_sample": 28
+    },
+    {
+      "subject": "E007",
+      "file_sample": 28,
+      "header_sample": 29
+    },
+    {
+      "subject": "E007",
+      "file_sample": 29,
+      "header_sample": 30
+    },
+    {
+      "subject": "E007",
+      "file_sample": 30,
+      "header_sample": 31
+    },
+    {
+      "subject": "E007",
+      "file_sample": 31,
+      "header_sample": 32
+    },
+    {
+      "subject": "E007",
+      "file_sample": 32,
+      "header_sample": 33
+    },
+    {
+      "subject": "E007",
+      "file_sample": 33,
+      "header_sample": 34
+    },
+    {
+      "subject": "E007",
+      "file_sample": 34,
+      "header_sample": 35
+    },
+    {
+      "subject": "E007",
+      "file_sample": 36,
+      "header_sample": 37
+    },
+    {
+      "subject": "E007",
+      "file_sample": 37,
+      "header_sample": 38
+    },
+    {
+      "subject": "E007",
+      "file_sample": 38,
+      "header_sample": 39
+    },
+    {
+      "subject": "E007",
+      "file_sample": 39,
+      "header_sample": 40
+    },
+    {
+      "subject": "E007",
+      "file_sample": 40,
+      "header_sample": 41
+    },
+    {
+      "subject": "E007",
+      "file_sample": 41,
+      "header_sample": 42
+    },
+    {
+      "subject": "E007",
+      "file_sample": 42,
+      "header_sample": 43
+    },
+    {
+      "subject": "E007",
+      "file_sample": 43,
+      "header_sample": 44
+    },
+    {
+      "subject": "E007",
+      "file_sample": 44,
+      "header_sample": 45
+    },
+    {
+      "subject": "E007",
+      "file_sample": 45,
+      "header_sample": 46
+    },
+    {
+      "subject": "E007",
+      "file_sample": 46,
+      "header_sample": 47
+    },
+    {
+      "subject": "E007",
+      "file_sample": 47,
+      "header_sample": 48
+    },
+    {
+      "subject": "E007",
+      "file_sample": 48,
+      "header_sample": 49
+    },
+    {
+      "subject": "E007",
+      "file_sample": 49,
+      "header_sample": 50
+    },
+    {
+      "subject": "E007",
+      "file_sample": 50,
+      "header_sample": 51
+    },
+    {
+      "subject": "E007",
+      "file_sample": 52,
+      "header_sample": 53
+    },
+    {
+      "subject": "E007",
+      "file_sample": 53,
+      "header_sample": 54
+    },
+    {
+      "subject": "E007",
+      "file_sample": 54,
+      "header_sample": 55
+    },
+    {
+      "subject": "E007",
+      "file_sample": 55,
+      "header_sample": 56
+    },
+    {
+      "subject": "E007",
+      "file_sample": 56,
+      "header_sample": 57
+    },
+    {
+      "subject": "E007",
+      "file_sample": 57,
+      "header_sample": 58
+    },
+    {
+      "subject": "E007",
+      "file_sample": 58,
+      "header_sample": 59
+    },
+    {
+      "subject": "E007",
+      "file_sample": 59,
+      "header_sample": 60
+    },
+    {
+      "subject": "E007",
+      "file_sample": 60,
+      "header_sample": 61
+    },
+    {
+      "subject": "E007",
+      "file_sample": 61,
+      "header_sample": 62
+    },
+    {
+      "subject": "E007",
+      "file_sample": 62,
+      "header_sample": 63
+    },
+    {
+      "subject": "E007",
+      "file_sample": 63,
+      "header_sample": 64
+    },
+    {
+      "subject": "E007",
+      "file_sample": 64,
+      "header_sample": 65
+    },
+    {
+      "subject": "E007",
+      "file_sample": 65,
+      "header_sample": 66
+    },
+    {
+      "subject": "E007",
+      "file_sample": 66,
+      "header_sample": 19
+    },
+    {
+      "subject": "E013",
+      "file_sample": 50,
+      "header_sample": 66
+    },
+    {
+      "subject": "E072",
+      "file_sample": 34,
+      "header_sample": 50
+    },
+    {
+      "subject": "E073",
+      "file_sample": 34,
+      "header_sample": 62
+    },
+    {
+      "subject": "E083",
+      "file_sample": 32,
+      "header_sample": 33
+    },
+    {
+      "subject": "E094",
+      "file_sample": 29,
+      "header_sample": 39
+    },
+    {
+      "subject": "E094",
+      "file_sample": 39,
+      "header_sample": 40
+    },
+    {
+      "subject": "E106",
+      "file_sample": 4,
+      "header_sample": 5
+    },
+    {
+      "subject": "E106",
+      "file_sample": 5,
+      "header_sample": 6
+    },
+    {
+      "subject": "E106",
+      "file_sample": 6,
+      "header_sample": 7
+    },
+    {
+      "subject": "E106",
+      "file_sample": 7,
+      "header_sample": 8
+    },
+    {
+      "subject": "E106",
+      "file_sample": 8,
+      "header_sample": 9
+    },
+    {
+      "subject": "E106",
+      "file_sample": 9,
+      "header_sample": 10
+    },
+    {
+      "subject": "E106",
+      "file_sample": 10,
+      "header_sample": 11
+    },
+    {
+      "subject": "E106",
+      "file_sample": 11,
+      "header_sample": 12
+    },
+    {
+      "subject": "E106",
+      "file_sample": 12,
+      "header_sample": 13
+    },
+    {
+      "subject": "E106",
+      "file_sample": 13,
+      "header_sample": 14
+    },
+    {
+      "subject": "E106",
+      "file_sample": 14,
+      "header_sample": 15
+    },
+    {
+      "subject": "E106",
+      "file_sample": 15,
+      "header_sample": 16
+    },
+    {
+      "subject": "E106",
+      "file_sample": 16,
+      "header_sample": 17
+    },
+    {
+      "subject": "E106",
+      "file_sample": 17,
+      "header_sample": 18
+    },
+    {
+      "subject": "E106",
+      "file_sample": 18,
+      "header_sample": 19
+    },
+    {
+      "subject": "E118",
+      "file_sample": 52,
+      "header_sample": 36
+    },
+    {
+      "subject": "E118",
+      "file_sample": 53,
+      "header_sample": 52
+    },
+    {
+      "subject": "E118",
+      "file_sample": 54,
+      "header_sample": 53
+    },
+    {
+      "subject": "E118",
+      "file_sample": 55,
+      "header_sample": 54
+    },
+    {
+      "subject": "E118",
+      "file_sample": 56,
+      "header_sample": 55
+    },
+    {
+      "subject": "E118",
+      "file_sample": 57,
+      "header_sample": 56
+    },
+    {
+      "subject": "E118",
+      "file_sample": 58,
+      "header_sample": 57
+    },
+    {
+      "subject": "E118",
+      "file_sample": 59,
+      "header_sample": 58
+    },
+    {
+      "subject": "E118",
+      "file_sample": 60,
+      "header_sample": 59
+    },
+    {
+      "subject": "E118",
+      "file_sample": 61,
+      "header_sample": 60
+    },
+    {
+      "subject": "E118",
+      "file_sample": 62,
+      "header_sample": 61
+    },
+    {
+      "subject": "E118",
+      "file_sample": 63,
+      "header_sample": 62
+    },
+    {
+      "subject": "E118",
+      "file_sample": 64,
+      "header_sample": 63
+    },
+    {
+      "subject": "E118",
+      "file_sample": 65,
+      "header_sample": 64
+    },
+    {
+      "subject": "E118",
+      "file_sample": 66,
+      "header_sample": 65
+    },
+    {
+      "subject": "E122",
+      "file_sample": 33,
+      "header_sample": 49
+    },
+    {
+      "subject": "E125",
+      "file_sample": 20,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 21,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 22,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 23,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 24,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 25,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 26,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 27,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 28,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 29,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 30,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 31,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 32,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 33,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 34,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 36,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 37,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 38,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 39,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 40,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 41,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 42,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 43,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 44,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 45,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 46,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 47,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 48,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 49,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 50,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 52,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 53,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 54,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 55,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 56,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 57,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 58,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 59,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 60,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 61,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 62,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 63,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 64,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 65,
+      "header_sample": 18
+    },
+    {
+      "subject": "E125",
+      "file_sample": 66,
+      "header_sample": 18
+    },
+    {
+      "subject": "E131",
+      "file_sample": 46,
+      "header_sample": 62
+    },
+    {
+      "subject": "E131",
+      "file_sample": 53,
+      "header_sample": 37
+    },
+    {
+      "subject": "E132",
+      "file_sample": 4,
+      "header_sample": 3
+    },
+    {
+      "subject": "E132",
+      "file_sample": 5,
+      "header_sample": 4
+    },
+    {
+      "subject": "E132",
+      "file_sample": 6,
+      "header_sample": 5
+    },
+    {
+      "subject": "E132",
+      "file_sample": 7,
+      "header_sample": 6
+    },
+    {
+      "subject": "E132",
+      "file_sample": 8,
+      "header_sample": 7
+    },
+    {
+      "subject": "E132",
+      "file_sample": 9,
+      "header_sample": 8
+    },
+    {
+      "subject": "E132",
+      "file_sample": 10,
+      "header_sample": 9
+    },
+    {
+      "subject": "E132",
+      "file_sample": 11,
+      "header_sample": 10
+    },
+    {
+      "subject": "E132",
+      "file_sample": 12,
+      "header_sample": 11
+    },
+    {
+      "subject": "E132",
+      "file_sample": 13,
+      "header_sample": 12
+    },
+    {
+      "subject": "E132",
+      "file_sample": 14,
+      "header_sample": 13
+    },
+    {
+      "subject": "E132",
+      "file_sample": 15,
+      "header_sample": 14
+    },
+    {
+      "subject": "E132",
+      "file_sample": 16,
+      "header_sample": 15
+    },
+    {
+      "subject": "E132",
+      "file_sample": 17,
+      "header_sample": 16
+    },
+    {
+      "subject": "E132",
+      "file_sample": 18,
+      "header_sample": 17
+    },
+    {
+      "subject": "E132",
+      "file_sample": 20,
+      "header_sample": 19
+    },
+    {
+      "subject": "E132",
+      "file_sample": 21,
+      "header_sample": 20
+    },
+    {
+      "subject": "E132",
+      "file_sample": 22,
+      "header_sample": 21
+    },
+    {
+      "subject": "E132",
+      "file_sample": 23,
+      "header_sample": 55
+    },
+    {
+      "subject": "E132",
+      "file_sample": 24,
+      "header_sample": 22
+    },
+    {
+      "subject": "E132",
+      "file_sample": 25,
+      "header_sample": 23
+    },
+    {
+      "subject": "E132",
+      "file_sample": 26,
+      "header_sample": 24
+    },
+    {
+      "subject": "E132",
+      "file_sample": 27,
+      "header_sample": 25
+    },
+    {
+      "subject": "E132",
+      "file_sample": 28,
+      "header_sample": 26
+    },
+    {
+      "subject": "E132",
+      "file_sample": 29,
+      "header_sample": 27
+    },
+    {
+      "subject": "E132",
+      "file_sample": 30,
+      "header_sample": 28
+    },
+    {
+      "subject": "E132",
+      "file_sample": 31,
+      "header_sample": 29
+    },
+    {
+      "subject": "E132",
+      "file_sample": 32,
+      "header_sample": 30
+    },
+    {
+      "subject": "E132",
+      "file_sample": 33,
+      "header_sample": 31
+    },
+    {
+      "subject": "E132",
+      "file_sample": 34,
+      "header_sample": 32
+    },
+    {
+      "subject": "E132",
+      "file_sample": 36,
+      "header_sample": 34
+    },
+    {
+      "subject": "E132",
+      "file_sample": 37,
+      "header_sample": 35
+    },
+    {
+      "subject": "E132",
+      "file_sample": 38,
+      "header_sample": 36
+    },
+    {
+      "subject": "E132",
+      "file_sample": 39,
+      "header_sample": 37
+    },
+    {
+      "subject": "E132",
+      "file_sample": 40,
+      "header_sample": 38
+    },
+    {
+      "subject": "E132",
+      "file_sample": 41,
+      "header_sample": 39
+    },
+    {
+      "subject": "E132",
+      "file_sample": 42,
+      "header_sample": 40
+    },
+    {
+      "subject": "E132",
+      "file_sample": 43,
+      "header_sample": 41
+    },
+    {
+      "subject": "E132",
+      "file_sample": 44,
+      "header_sample": 42
+    },
+    {
+      "subject": "E132",
+      "file_sample": 45,
+      "header_sample": 43
+    },
+    {
+      "subject": "E132",
+      "file_sample": 46,
+      "header_sample": 44
+    },
+    {
+      "subject": "E132",
+      "file_sample": 47,
+      "header_sample": 45
+    },
+    {
+      "subject": "E132",
+      "file_sample": 48,
+      "header_sample": 46
+    },
+    {
+      "subject": "E132",
+      "file_sample": 49,
+      "header_sample": 47
+    },
+    {
+      "subject": "E132",
+      "file_sample": 50,
+      "header_sample": 48
+    },
+    {
+      "subject": "E140",
+      "file_sample": 62,
+      "header_sample": 46
+    },
+    {
+      "subject": "E140",
+      "file_sample": 63,
+      "header_sample": 47
+    },
+    {
+      "subject": "E140",
+      "file_sample": 64,
+      "header_sample": 63
+    },
+    {
+      "subject": "E140",
+      "file_sample": 65,
+      "header_sample": 64
+    },
+    {
+      "subject": "E140",
+      "file_sample": 66,
+      "header_sample": 65
+    },
+    {
+      "subject": "E141",
+      "file_sample": 36,
+      "header_sample": 37
+    },
+    {
+      "subject": "E141",
+      "file_sample": 37,
+      "header_sample": 38
+    },
+    {
+      "subject": "E141",
+      "file_sample": 38,
+      "header_sample": 39
+    },
+    {
+      "subject": "E141",
+      "file_sample": 39,
+      "header_sample": 40
+    },
+    {
+      "subject": "E141",
+      "file_sample": 40,
+      "header_sample": 41
+    },
+    {
+      "subject": "E141",
+      "file_sample": 41,
+      "header_sample": 42
+    },
+    {
+      "subject": "E141",
+      "file_sample": 42,
+      "header_sample": 43
+    },
+    {
+      "subject": "E141",
+      "file_sample": 43,
+      "header_sample": 44
+    },
+    {
+      "subject": "E141",
+      "file_sample": 44,
+      "header_sample": 45
+    },
+    {
+      "subject": "E141",
+      "file_sample": 45,
+      "header_sample": 46
+    },
+    {
+      "subject": "E141",
+      "file_sample": 46,
+      "header_sample": 47
+    },
+    {
+      "subject": "E141",
+      "file_sample": 47,
+      "header_sample": 48
+    },
+    {
+      "subject": "E141",
+      "file_sample": 48,
+      "header_sample": 49
+    },
+    {
+      "subject": "E141",
+      "file_sample": 49,
+      "header_sample": 50
+    },
+    {
+      "subject": "E141",
+      "file_sample": 50,
+      "header_sample": 51
+    }
+  ],
+  "header_id_conflicts": [
+    {
+      "directory": "E021",
+      "header_id": "E022",
+      "sample_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "directory": "E132",
+      "header_id": "E133",
+      "sample_numbers": [
+        23,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "directory": "E141",
+      "header_id": "E142",
+      "sample_numbers": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "directory": "E141",
+      "header_id": "E143",
+      "sample_numbers": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "directory": "E141",
+      "header_id": "E144",
+      "sample_numbers": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    }
+  ]
+}
